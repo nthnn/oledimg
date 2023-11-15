@@ -1,0 +1,24 @@
+name: Test CI
+
+on: [push]
+
+jobs:
+  build:
+
+    runs-on: ubuntu-latest
+    strategy:
+      matrix:
+        python-version: ["3.11"]
+
+    steps:
+      - uses: actions/checkout@v4
+      - name: Set up Python ${{ matrix.python-version }}
+        uses: actions/setup-python@v4
+        with:
+          python-version: ${{ matrix.python-version }}
+
+      - name: Install required packages
+        run: pip3 install -r requirements.txt
+
+      - name: Test run oledimg
+        run: python3 oledimg.py
