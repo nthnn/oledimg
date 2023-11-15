@@ -2,7 +2,9 @@
 
 ![Test CI](https://github.com/nthnn/oledimg/actions/workflows/test.yml/badge.svg)
 ![GitHub repo size](https://img.shields.io/github/repo-size/nthnn/oledimg?logo=git&label=Repository%20Size)
+[![GitHub Stars](https://img.shields.io/github/stars/nthnn/QLBase.svg)](https://github.com/nthnn/QLBase/stargazers)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
+<a href="https://www.buymeacoffee.com/nthnn"><img src="https://www.buymeacoffee.com/assets/img/custom_images/orange_img.png" height="20px"></a>
 
 `oledimg` is a Python script designed to convert images into OLED display-compatible bitmap arrays. The resulting C/C++ file can be easily integrated into embedded systems, making it a handy tool for developers working with OLED displays.
 
