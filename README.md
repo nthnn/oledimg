@@ -17,7 +17,7 @@ Make sure to execute this command in the same directory where the requirements.t
 ## Usage
 
 ```bash
-python oledimg.py [image] [output]
+python3 oledimg.py [image] [output]
 ```
 
 - **image**: The path to the input image file.
