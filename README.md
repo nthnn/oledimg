@@ -1,5 +1,9 @@
 # oledimg
 
+![Test CI](https://github.com/nthnn/oledimg/actions/workflows/test.yml/badge.svg)
+![GitHub repo size](https://img.shields.io/github/repo-size/nthnn/oledimg?logo=git&label=Repository%20Size)
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
+
 `oledimg` is a Python script designed to convert images into OLED display-compatible bitmap arrays. The resulting C/C++ file can be easily integrated into embedded systems, making it a handy tool for developers working with OLED displays.
 
 ## Prerequisites
